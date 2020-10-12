@@ -24,8 +24,8 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   WooCommerce wc = new WooCommerce(
       baseUrl:
-          'http://10.0.0.210:8080/WebsiteWordpressChecking/wordpress-5.2.2/wordpress',
-      consumerKey: 'ck_46bee59719510f0af6b327cae5d9450c3d9a8431',
+          'http://10.0.0.210:8080/WebsiteWordpressChecking/wordpress-5.2.2/wordpress', //use your own website url,and LAN connection
+      consumerKey: 'ck_46bee59719510f0af6b327cae5d9450c3d9a8431', //use your own consumer key and consumer secret key
       consumerSecret: 'cs_d03fb7dd03e3611800e4f5ba20ae5e7a8ce42da6');
 
   @override
